@@ -695,6 +695,16 @@ export default function HomePage() {
               © SinkMaster. All rights reserved.
             </p>
           </div>
+
+          <div className="mt-3 pt-3 border-t border-gray-200/50 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-gray-400/80 leading-relaxed">
+            <span>상호/운영자: 현미경</span>
+            <span aria-hidden="true">·</span>
+            <span>대표자: 현미경</span>
+            <span aria-hidden="true">·</span>
+            <span>연락처: 010-2796-2080</span>
+            <span aria-hidden="true">·</span>
+            <span>이메일: jjcow0518@naver.com</span>
+          </div>
         </div>
       </footer>
 
