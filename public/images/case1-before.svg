@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <radialGradient id="pipeDark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#18120c"/>
+      <stop offset="40%" stop-color="#3a2c1e"/>
+      <stop offset="75%" stop-color="#6b5034"/>
+      <stop offset="100%" stop-color="#27211c"/>
+    </radialGradient>
+    <radialGradient id="sludge" cx="45%" cy="55%" r="45%">
+      <stop offset="0%" stop-color="#1f1710"/>
+      <stop offset="30%" stop-color="#7c5b36"/>
+      <stop offset="65%" stop-color="#ab804c"/>
+      <stop offset="90%" stop-color="#5c4223"/>
+      <stop offset="100%" stop-color="#2e2112"/>
+    </radialGradient>
+    <filter id="rough">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="16" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="#1e293b"/>
+  <circle cx="400" cy="300" r="245" fill="url(#pipeDark)" stroke="#475569" stroke-width="14"/>
+  <g filter="url(#rough)">
+    <circle cx="400" cy="310" r="215" fill="url(#sludge)"/>
+    <path d="M220,220 C290,150 510,160 580,240 C630,310 590,460 470,490 C340,520 190,450 185,330 Z" fill="#8f683a" opacity="0.85"/>
+    <path d="M260,270 C330,210 470,220 530,280 C570,340 520,440 420,460 C310,480 230,390 245,310 Z" fill="#b3864d" opacity="0.75"/>
+    <ellipse cx="385" cy="325" rx="95" ry="70" fill="#4f391e"/>
+    <ellipse cx="395" cy="330" rx="22" ry="15" fill="#0f0c08"/>
+  </g>
+  <line x1="360" y1="300" x2="440" y2="300" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.7"/>
+  <line x1="400" y1="260" x2="400" y2="340" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.7"/>
+</svg>

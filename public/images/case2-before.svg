@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="dirtyPlastic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78716c"/>
+      <stop offset="50%" stop-color="#57534e"/>
+      <stop offset="100%" stop-color="#44403c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#e2e8f0"/>
+  <rect x="90" y="40" width="620" height="520" rx="16" fill="#cbd5e1" stroke="#94a3b8" stroke-width="3"/>
+  <path d="M200,40 L600,40 L560,140 L240,140 Z" fill="#64748b" stroke="#475569" stroke-width="2"/>
+  <path d="M300,140 L500,140 L480,335 L320,335 Z" fill="url(#dirtyPlastic)" stroke="#57534e" stroke-width="3"/>
+  <circle cx="355" cy="205" r="24" fill="#292524" opacity="0.65"/>
+  <circle cx="430" cy="245" r="32" fill="#3f3f46" opacity="0.6"/>
+  <circle cx="380" cy="285" r="28" fill="#1c1917" opacity="0.7"/>
+  <path d="M400,335 C400,395 330,415 350,480 C365,520 420,520 420,555" fill="none" stroke="#57534e" stroke-width="38" stroke-linecap="round"/>
+  <path d="M400,335 C400,395 330,415 350,480 C365,520 420,520 420,555" fill="none" stroke="#292524" stroke-width="32" stroke-dasharray="8 8"/>
+  <circle cx="315" cy="365" r="6" fill="#0284c7"/>
+  <circle cx="310" cy="390" r="8" fill="#0284c7"/>
+  <ellipse cx="320" cy="525" rx="60" ry="15" fill="#0284c7" opacity="0.4"/>
+</svg>
