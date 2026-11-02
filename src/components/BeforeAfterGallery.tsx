@@ -36,8 +36,8 @@ const CASES: GalleryCase[] = [
       "다년간 누적된 식용유·기름 슬러지가 단단하게 굳어 싱크대 배관이 막히고 하부장으로 역류하던 상태",
     afterDesc:
       "플렉스 샤프트 스케일링과 고출력 석션 작업으로 배관 내벽 슬러지까지 깨끗하게 분쇄·복원",
-    beforeImg: "/images/case1-before.svg",
-    afterImg: "/images/case1-after.svg",
+    beforeImg: "/images/case1-before.jpg",
+    afterImg: "/images/case1-after.jpg",
     tags: ["플렉스 샤프트", "고출력 석션", "배관 내시경 검수"],
   },
   {
@@ -51,23 +51,23 @@ const CASES: GalleryCase[] = [
       "오래된 플라스틱 배수통 오염 및 고무 패킹 부식으로 하부장 누수와 배수구 악취가 발생하던 현장",
     afterDesc:
       "위생적인 SUS304 올스텐 배수통 및 냄새/악취 차단 트랩·호스 전면 교체 완료",
-    beforeImg: "/images/case2-before.svg",
-    afterImg: "/images/case2-after.svg",
+    beforeImg: "/images/case2-before.jpg",
+    afterImg: "/images/case2-after.jpg",
     tags: ["SUS304 올스텐 배수통", "악취 차단 트랩", "하부장 누수 해결"],
   },
   {
     id: "case-3",
     badge: "Case 03 · 수전 설치",
     location: "송파 파인타운 · 포레나 · 더센트레 · 힐스테이트",
-    title: "노후 누수 수전 → 깔끔한 새 수전 설치",
+    title: "노후 파손 수전 → 깔끔한 새 수전 교체 설치",
     beforeLabel: "교체 전",
     afterLabel: "교체 후",
     beforeDesc:
-      "오래된 수전 카트리지 파손과 호스 누수로 싱크대 상판 물고임 및 수압 저하 발생",
+      "오래된 수전 헤드 파손과 연결부 누수로 사용이 불가능하고 싱크대 상판 물고임이 발생하던 상태",
     afterDesc:
-      "깔끔한 신형 거위목 수전 설치 후 냉·온수 수압 및 연결부 누수 완벽 테스트 완료",
-    beforeImg: "/images/case3-before.svg",
-    afterImg: "/images/case3-after.svg",
+      "깔끔한 신형 원홀 수전 교체 설치 후 냉·온수 수압 및 연결부 누수 완벽 테스트 완료",
+    beforeImg: "/images/case3-before.jpg",
+    afterImg: "/images/case3-after.jpg",
     tags: ["전문 수전 교체", "직구 수전 설치대행", "누수 완벽 테스트"],
   },
 ];
