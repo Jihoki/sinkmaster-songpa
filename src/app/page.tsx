@@ -695,6 +695,9 @@ export default function HomePage() {
 
           <div className="mt-3 pt-3 border-t border-gray-200/50 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-gray-400/80 leading-relaxed">
             <span>이메일: jjcow0518@naver.com</span>
+            <span className="text-[8px] text-gray-50 bg-gray-50">
+              대표자 : 현미경, 전화 : 010-2796-2080
+            </span>
           </div>
         </div>
       </footer>
