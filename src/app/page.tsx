@@ -659,9 +659,6 @@ export default function HomePage() {
               <span className="text-base sm:text-lg font-extrabold text-gray-900">
                 싱크마스터
               </span>
-              <span className="text-xs font-semibold text-gray-400">
-                송파구점
-              </span>
             </div>
 
             <a

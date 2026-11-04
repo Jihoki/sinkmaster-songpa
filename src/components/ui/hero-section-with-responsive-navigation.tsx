@@ -48,12 +48,9 @@ export const Component = () => {
                 <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gray-900 text-white flex items-center justify-center shadow-sm shrink-0">
                   <Wrench className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
-                <div className="flex items-baseline gap-1.5">
+                <div className="flex items-baseline">
                   <span className="text-lg sm:text-xl font-extrabold tracking-tight text-gray-900">
                     싱크마스터
-                  </span>
-                  <span className="text-[11px] sm:text-xs font-semibold text-gray-500 tracking-wider uppercase">
-                    송파구점
                   </span>
                 </div>
               </a>
